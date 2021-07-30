@@ -1,0 +1,34 @@
+Created by testinium on 2.06.2021
+
+This is a concept file with following syntax for each concept.
+# Tek yön uçuş seçilir
+*"oneWayButtonBy" butonuna tıkla
+* "2" saniye bekle
+
+#Yön bilgisi olarak <from> to <go> Seçilir
+* "fromToButtonBy" butonuna tıkla
+* "1" saniye bekle
+* "fromToSearchBoxButtonBy" 'ine <from> degerini yolla
+* "fromToSelectResultBy" butonuna tıkla
+* "1" saniye bekle
+* "goToButtonBy" butonuna tıkla
+* "goToSearchBoxButtonBy" 'ine <go> degerini yolla
+* "goToSelectResultBy" butonuna tıkla
+* "2" saniye bekle
+
+#Tarih bilgisi günün tarihinden <gun> gün sonraya seçilir
+
+* "dateButtonBy" butonuna tıkla
+* <gun> sonraki tarihi seç
+* "2" saniye bekle
+
+#Tamam butonuna tıklanır
+* "doneButtonBy" butonuna tıkla
+
+#Yetişkin bilgisi 2 olarak seçilir
+* "addingPersonButtonBy" butonuna tıkla
+* "2" saniye bekle
+
+#Uçuş ara butonuna tıklanır.
+* "searchFlightBy" butonuna tıkla
+* "2" saniye bekle

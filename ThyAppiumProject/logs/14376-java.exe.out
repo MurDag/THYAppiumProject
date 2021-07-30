@@ -1,0 +1,41 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 635milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 635"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63571"}
+{"logLevel":"info","message":"Listening on port:63571"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySecond' and 'StepImplementation.waitBySecond'"}
+{"logLevel":"debug","message":"Found {} Saniye Bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickById' and 'StepImplementation.clickById'"}
+{"logLevel":"debug","message":"Found {} Id'li Elemente {} Değerini Yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickById' and 'StepImplementation.clickById'"}
+{"logLevel":"debug","message":"Found {} Id'li Elemente Tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} Id'li Elemente Tıkla : public void clickById(String key)"}
+{"logLevel":"debug","message":"\t{} Saniye Bekle : public void waitBySecond(Integer second) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} Id'li Elemente {} Değerini Yaz : public void clickById(String key, String text)"}
+<------------------- Test İşlemi Başladı ------------------->
+Haz 16, 2021 12:52:52 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing '{} Id'li Elemente Tıkla' using 'class StepImplementation.clickById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing '{} Id'li Elemente Tıkla' using 'class StepImplementation.clickById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing '{} Id'li Elemente Tıkla' using 'class StepImplementation.clickById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing '{} Id'li Elemente Tıkla' using 'class StepImplementation.clickById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing '{} Id'li Elemente Tıkla' using 'class StepImplementation.clickById"}
+{"logLevel":"debug","message":"Executing '{} Saniye Bekle' using 'class StepImplementation.waitBySecond"}
+{"logLevel":"debug","message":"Executing '{} Id'li Elemente {} Değerini Yaz' using 'class StepImplementation.clickById"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

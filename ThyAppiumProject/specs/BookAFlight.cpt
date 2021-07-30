@@ -1,0 +1,11 @@
+Created by testinium on 15.06.2021
+
+This is a concept file with following syntax for each concept.
+# Bilet al butonuna tıklanır
+* "2" Saniye Bekle
+* "allowLocation" Id'li Elemente Tıkla
+* "2" Saniye Bekle
+* "allowCookies" Id'li Elemente Tıkla
+* "2" Saniye Bekle
+* "bookAFlight" Id'li Elemente Tıkla
+

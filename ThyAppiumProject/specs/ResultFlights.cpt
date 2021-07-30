@@ -1,0 +1,20 @@
+Created by testinium on 16.06.2021
+
+This is a concept file with following syntax for each concept.
+
+
+# Uçuşların listelendiği kontrol edilir
+* "2" Saniye Bekle
+* "resultFligthsBox" Id'li Elementin Varlığını Kontrol Et
+
+
+# Ekonomik uçuş seçilir
+* "2" Saniye Bekle
+* "resultFlightList" Listesinden Rastgele Bir Element Seç
+* "2" Saniye Bekle
+* "ecoFlyClick" xPath'li Elemente Tıkla
+
+# Devam butonuna tıklanır
+* "2" Saniye Bekle
+* "continueButton" Id'li Elemente Tıkla
+* "2" Saniye Bekle
